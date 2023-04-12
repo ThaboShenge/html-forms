@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    
+    <script src="script.js"></script>
+    <title>HTML and CSS</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="styling.css">
+    <main>
+     <header class="header">
+        <h1>Registration form</h1>
+     </header>
+     <form class="" onsubmit="return false;">
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="Faka igama"><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Faka isibongo"><br>
+
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" placeholder="Fakaiemail@lana"><br>
+
+        <label for="Province">Province</label><br>
+        <select id="Province" name="Province">
+            <option value="none" selected disabled>Select Province</option>
+            <option value="Gauteng">Gauteng</option>
+            <option value="KZN">KZN</option>
+            <option value="Limpompo">Limpompo</option>
+            <option value="Eastern Cape">Eastern Cape</option>
+
+        </select> <br><br>
+        <button type="submit" onclick="getFormValues()">Register</button>
+
+
+     </form>
+
+
+    </main>
+</body>
+</html>
